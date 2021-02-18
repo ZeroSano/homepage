@@ -1,5 +1,5 @@
 <template>
-  <div class="member wrapper">
+  <div class="member wrapper" id="member">
     <h1> Member </h1>
     <div class="member-introduction">
         <!-- 学年ごと -->
@@ -46,6 +46,12 @@ export default {
 </script>
 
 <style scoped>
+#member {
+    background-image: linear-gradient(rgb(238, 183, 183), rgb(180, 180, 228));
+    /* background-blend-mode: luminosity; */
+    background-repeat: repeat-x;
+    height: 200vh;
+}
 .home {
   text-align: center;
   
@@ -57,6 +63,7 @@ export default {
 h1{
     text-align: center;
     font-size: 3rem;
+    padding-top: 20px;
 }
 ul > li {
     list-style: none;
