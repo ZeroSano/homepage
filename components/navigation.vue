@@ -25,6 +25,7 @@
               navItems: [
                   {path: '/',  title: 'Home'},
                   {path: '/member', title: 'Member'},
+                  {path: '/project', title: 'Project'},
                   {path: '/contact', title: 'contact'}                    
               ]
           }

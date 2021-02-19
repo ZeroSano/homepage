@@ -1,8 +1,10 @@
 <template>
   <div class="home wrapper" id="home">
     <h1> Sano Lab </h1> 
-    <div class="big-bg">
-
+    <div class="contents">
+      佐野研究室では社会を対象に社会物理学の視点から研究しています。
+      <br>
+      <img class="intro" src="sanolab/intro.png" alt="">
     </div>
   </div>
 </template>
@@ -20,6 +22,7 @@
   background-blend-mode: hard-light;
   background-repeat: repeat-y;
   height: 100vh;
+  color: white;
 }
 .home {
   text-align: center;
@@ -27,6 +30,8 @@
 
 h1{
   padding-top: 100px;
-  color: white;
+}
+.intro {
+  width: 90%;
 }
 </style>
