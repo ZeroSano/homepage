@@ -8,7 +8,6 @@
     <ul class="nav">
       <li class="nav-items" v-for="(item, index) in navItems" :key="index">
         <ul> <nuxt-link :to="item.path"> {{ item.title }} </nuxt-link> </ul>
-
       </li>
 
     </ul>

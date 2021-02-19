@@ -4,8 +4,8 @@
     <div class="member-introduction">
         <!-- 学年ごと -->
         <ul v-for="(values, grade) in members" :key="grade">
-            <h2 class="member-grade" v-if="grade==='Leader'"> {{grade}}</h2>
-            <h2 class="member-grade" v-else> Grade: {{ grade }} </h2>
+            <h2 class="member-grade" v-if="grade==='Director'"> {{grade}}</h2>
+            <h2 class="member-grade" v-else> {{ grade }} </h2>
             <!-- 各学年内での記述 -->
             <div class="member-grade__box">
                 <ul v-for="(value, key) in values" :key="key">
@@ -27,29 +27,28 @@ export default {
     data: () => {
         return {
             members: {
-                Leader: [
+                Director: [
                     {name: 'Yukie Sano', img: "./face.jpg", comment: "Sano sensei"}
                     ],
-                m2: [
+                M2: [
                     {name: 'm2tarou', img: "./face.jpg", comment: "hi, i'm m2 trou"}, {name: 'm2 no m2', img: "./face.jpg", comment: "hi, i'm m2 no m2"},
                     {name: 'm2tarou', img: "./face.jpg", comment: "hi, i'm m2 trou"}, {name: 'm2 no m2', img: "./face.jpg", comment: "hi, i'm m2 no m2"},
                     {name: 'm2tarou', img: "./face.jpg", comment: "hi, i'm m2 trou"}, {name: 'm2 no m2', img: "./face.jpg", comment: "hi, i'm m2 no m2"},
                     {name: 'm2tarou', img: "./face.jpg", comment: "hi, i'm m2 trou"}, {name: 'm2 no m2', img: "./face.jpg", comment: "hi, i'm m2 no m2"}
                 ],
-                m1: [{name: 'm1 yo', img: "./face.jpg", comment: "hi, i'mm1 yoyo"}, {name: 'm1 m1 ', img: "./face.jpg", comment: "hi, m1 m1"}],
-                b4: [{name: 'b4b4b4b', img: "./face.jpg", comment: "b4b4"}, {name: 'bbb4', img: "./face.jpg", comment: "hi, bbbb444"}]
+                M1: [{name: 'm1 yo', img: "./face.jpg", comment: "hi, i'mm1 yoyo"}, {name: 'm1 m1 ', img: "./face.jpg", comment: "hi, m1 m1"}],
+                B4: [{name: 'b4b4b4b', img: "./face.jpg", comment: "b4b4"}, {name: 'bbb4', img: "./face.jpg", comment: "hi, bbbb444"}]
             }
         }
     }
 }
-
 </script>
 
 <style scoped>
 #member {
-    background-image: linear-gradient(rgb(238, 183, 183), rgb(180, 180, 228));
+    background-color: rgba(158, 173, 162, 0.7);
     /* background-blend-mode: luminosity; */
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-y; */
     height: 200vh;
 }
 .home {
@@ -57,7 +56,10 @@ export default {
   
 }
 .member-img {
-    width: 100%;
+    /* width: 100%; */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
     
 }
 h1{
@@ -72,18 +74,20 @@ ul > li {
 
 .member-grade{
     border-bottom: 1px solid black;
+    padding-right: 20px;
 }
 .member-grade__box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1px;
+    padding-right: 20px;
 }
 .member-item {
-    background-color: rgb(126, 169, 204);
+    background-color:rgb(rgb(156, 114, 114), rgb(155, 175, 155), rgb(124, 124, 161), 0.);
     padding: 5px;
-    max-width: 240px;
+    max-width: 200px;
     margin-bottom:20px;
+    margin:20px 0;
 }
 
 </style>

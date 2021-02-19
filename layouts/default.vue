@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="default">
     <Navigation />
 
     <Nuxt />
@@ -39,5 +39,8 @@ html {
   margin: 0 auto;
   padding: 0 4px;
 }
-
+.default {
+   background-image: url("/nature.jpg");
+    background-size:cover;                 /* 画像のサイズを指定    */
+}
 </style>

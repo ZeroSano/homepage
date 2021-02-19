@@ -7,7 +7,8 @@
                 <img :src="item.img" alt="">
                 <article>
                     <h3> Title: {{item.title}} <br> </h3> 
-                    <p v-if="item.subtitle!=''"> Subtitle:  {{item.subtitle}} </p>
+                    <div v-if="item.subtitles != '' "></div>
+                        <ul v-for="(_item, _index) in item.subtitles" :key="_index"> →　{{_item}} </ul>
                 </article>
             </li>
         </ul>
@@ -21,15 +22,11 @@ export default {
     data: () => {
         return {
             contents: [
-                {title: "SNSにおける情報拡散", subtitle: "実空間とサイバー空間での拡散とその社会実装", img: "./demo.jpg"},
-                {title: "SNSにおける情報拡散", subtitle: "情報拡散シミュレーション", img: "./demo.jpg"},
-                {title: "サイバー空間からの空気感の抽出", subtitle: "新型コロナウィルス影響下での緊張感の変化", img: "./demo.jpg"},
-                {title: "サイバー空間からの空気感の抽出", subtitle: "高齢ドライバーに対する風当たりの可視化", img: "./demo.jpg"},
-                {title: "謝辞から抽出した学術ネットワーク", subtitle: "", img: "./demo.jpg"},
-                {title: "人間活動におけるバースト性", subtitle: "乳幼児と大人の違い", img: "./demo.jpg"},
-                {title: "保育現場のICT化", subtitle: "ドアの開閉ログを用いた忙しさの定量化", img: "./demo.jpg"},
-                {title: "保育現場のICT化", subtitle: "動線データの分析", img: "./demo.jpg"},
-                {title: "スポーツデータの分析", subtitle: "少年サッカーにおけるボールタッチ回数分析", img: "./demo.jpg"}               
+                {title: "SNSにおける情報拡散", subtitles: ["実空間とサイバー空間での拡散とその社会実装", "情報拡散シミュレーション"], img: "./sanolab/emotion.png"},
+                {title: "サイバー空間からの空気感の抽出", subtitles: ["新型コロナウィルス影響下での緊張感の変化", "高齢ドライバーに対する風当たりの可視化"], img: "./sanolab/spreadInfo.png"},
+                {title: "謝辞から抽出した学術ネットワーク", subtitles: "", img: "./sanolab/acknowledgement.png"},
+                {title: "人間活動におけるバースト性", subtitles: ["乳幼児と大人の違い"], img: "./sanolab/burst.png"},
+                {title: "保育現場のICT化", subtitles: ["ドアの開閉ログを用いた忙しさの定量化", "動線データの分析"], img: "./demo.jpg"}
             ]
         }
     }
@@ -39,9 +36,10 @@ export default {
 
 <style scoped>
 #project {
-    background-image: linear-gradient(rgb(245, 18, 18), rgb(15, 15, 240));
+    color: white;
+    background-image: linear-gradient(rgb(245, 18, 18, 0.5), rgb(15, 15, 240,  0.5));
     background-repeat: repeat-x;
-    height: 100vh;
+    height: 120vh;
 }
 .project {
   text-align: center;
@@ -61,8 +59,9 @@ ul li {
 }
 
 .project-box__item {
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin: 20px auto;
 }
 .project-box__item img {
     width: 30%;
