@@ -2,37 +2,24 @@
   <div class="home wrapper" id="home">
     <h1> Sano Lab </h1> 
     <div class="contents">
-      佐野研究室では社会を対象に社会物理学の視点から研究しています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではこんなことやこんなことをしています。
     </div>
 
-
     <hooper class="hopper-contents" :autoPlay="true" :playSpeed="4000">
-      <slide>
-        slide 1
-        <img class="intro" src="sanolab/intro.png" alt="">
-      </slide>
-      <slide>
-        slide 2
-        <img src="sanolab/emotion.png" alt="">
-      </slide>
-      <slide>
-        slide 3
-        <img class="intro" src="sanolab/spreadInfo.png" alt="">
-      </slide>
-      <slide>
-        slide 4
-        <img class="intro" src="sanolab/acknowledgement.png" alt="">
-      </slide>
-      <slide>
-        slide 5
-        <img class="intro" src="sanolab/burst.png" alt="">
-      </slide>
-      <slide>
-        slide 6
-        <img class="intro" src="demo.jpg" alt="">
+      <slide class="hopper-contents__item" v-for="(item, index) in slides" :key="index">
+        <h3> slide {{ index }} </h3> 
+        <img class="intro" :src="item.img" :alt="item.alt"> <br>
+        <p>  {{ item.description }} </p>
       </slide>
       <hooper-pagination slot="hooper-addons"></hooper-pagination>
-  </hooper>
+   </hooper>
 
   </div>
 </template>
@@ -50,6 +37,18 @@ export default {
     Slide,
     HooperPagination,
     HooperNavigation
+  },
+  data: () => {
+        return {
+            slides: [
+              {img: "sanolab/intro.png", alt:"acknowledgement", description: "this is intro"},
+              {img: "sanolab/emotion.png", alt:"acknowledgement", description: "this is emotion"},
+              {img: "sanolab/spreadInfo.png", alt:"acknowledgement", description: "this is spreadInfo"},
+              {img: "sanolab/acknowledgement.png", alt:"acknowledgement", description: "this is acknow"},
+              {img: "sanolab/burst.png", alt:"acknowledgement", description: "this is burst"},
+              {img: "/demo.jpg", alt:"acknowledgement", description: "this is demo"}
+            ]
+      }
   }
 }
 </script>
@@ -70,12 +69,16 @@ export default {
 h1{
   padding-top: 100px;
 }
+.contents{
+  width: 80%;
+  margin: 20px auto;
+}
 .intro {
   width: 90%;
 }
 
 .hopper-contents{
-  height: 800px;
+  height: 850px;
 }
 
 .hooper-slide {
@@ -89,4 +92,16 @@ h1{
     font-size: 30px;
     border-radius: 10px;
   }
+
+.hopper-contents__item {
+  display: flex;
+  flex-direction: column;
+}
+.hopper-contents__item h3 {
+  margin: 10px auto;
+}
+.hopper-contents__item p {
+  margin: 0;
+}
+
 </style>

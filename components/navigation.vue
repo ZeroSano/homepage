@@ -1,15 +1,13 @@
 <template>
 <header class="page-header wrapper">
   <!-- <h1> <nuxt-link to='/'> <img src="/logo.jpg" alt="logo"> </nuxt-link> </h1> -->
-  <h1> <nuxt-link to="/"> Sano Lab </nuxt-link> </h1>
-
+  <h1> <nuxt-link to="/">Sano Lab</nuxt-link> </h1>
 
   <nav>
     <ul class="nav">
       <li class="nav-items" v-for="(item, index) in navItems" :key="index">
-        <ul> <nuxt-link :to="item.path"> {{ item.title }} </nuxt-link> </ul>
+        <nuxt-link :to="item.path"> {{ item.title }} </nuxt-link>
       </li>
-
     </ul>
   </nav>
 
@@ -34,23 +32,36 @@
 
 <style scoped>
 .page-header {
+  background-color: rgb(225, 227, 235);
+  background-image: url("/sanolab/network.png");
+  background-blend-mode:luminosity;
   display: flex;
-  justify-content:space-between;
-  background-color: rgb(129, 135, 153);
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-position: left 210% top;
+}
+h1 {
+  text-decoration: none;
+  margin-bottom: 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .nav {
-display: flex;
-margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 .nav li {
   list-style: none;
-  justify-content: center;
+  margin: 5px 20px;
 }
-.nav li ul {
-  margin-top: 20px;
-  font-size: 1.2rem;
+.nav li a {
+  font-size: 1.3rem;
 }
-.nav li ul a:hover {
+.nav li a:hover {
   color: red;
 }
 </style>

@@ -16,15 +16,7 @@ export default {
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -42,5 +34,14 @@ html {
 .default {
    background-image: url("/nature.jpg");
     background-size:cover;                 /* 画像のサイズを指定    */
+}
+
+@media (max-width: 1200) {
+  .wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+  
 }
 </style>

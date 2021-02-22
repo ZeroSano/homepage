@@ -49,7 +49,7 @@ export default {
     background-color: rgba(158, 173, 162, 0.7);
     /* background-blend-mode: luminosity; */
     /* background-repeat: repeat-y; */
-    height: 200vh;
+    height: 100%;
 }
 .home {
   text-align: center;
@@ -90,4 +90,7 @@ ul > li {
     margin:20px 0;
 }
 
+@media (min-width: 800px) {
+
+}
 </style>
