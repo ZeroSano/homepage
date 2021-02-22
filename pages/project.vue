@@ -6,9 +6,10 @@
             <li class="project-box__item item-right" >
                 <img :src="item.img" alt="">
                 <article>
-                    <h3> Title: {{item.title}} <br> </h3> 
+                    <h3 class="project-box__title"> Title: {{item.title}} <br> </h3> 
                     <div v-if="item.subtitles != '' "></div>
-                        <ul v-for="(_item, _index) in item.subtitles" :key="_index"> →　{{_item}} </ul>
+                        <ul class="project-box__subtitles" v-for="(_item, _index) in item.subtitles" :key="_index"> →　{{_item}} </ul>
+                    <p class="project-box__detail"> {{ item.detail }} </p>
                 </article>
             </li>
         </ul>
@@ -22,11 +23,11 @@ export default {
     data: () => {
         return {
             contents: [
-                {title: "SNSにおける情報拡散", subtitles: ["実空間とサイバー空間での拡散とその社会実装", "情報拡散シミュレーション"], img: "./sanolab/emotion.png"},
-                {title: "サイバー空間からの空気感の抽出", subtitles: ["新型コロナウィルス影響下での緊張感の変化", "高齢ドライバーに対する風当たりの可視化"], img: "./sanolab/spreadInfo.png"},
-                {title: "謝辞から抽出した学術ネットワーク", subtitles: "", img: "./sanolab/acknowledgement.png"},
-                {title: "人間活動におけるバースト性", subtitles: ["乳幼児と大人の違い"], img: "./sanolab/burst.png"},
-                {title: "保育現場のICT化", subtitles: ["ドアの開閉ログを用いた忙しさの定量化", "動線データの分析"], img: "./demo.jpg"}
+                {title: "SNSにおける情報拡散", subtitles: ["実空間とサイバー空間での拡散とその社会実装", "情報拡散シミュレーション"], img: "./sanolab/emotion.png", detail:"this is detail"},
+                {title: "サイバー空間からの空気感の抽出", subtitles: ["新型コロナウィルス影響下での緊張感の変化", "高齢ドライバーに対する風当たりの可視化"], img: "./sanolab/spreadInfo.png", detail:"論文に記述される謝辞から学術界の人間関係を示す謝辞ネットワークを構築し、新たな視点から学術界と科学の発展を科学します"},
+                {title: "謝辞から抽出した学術ネットワーク", subtitles: "", img: "./sanolab/acknowledgement.png", detail:"論文に記述される謝辞から学術界の人間関係を示す謝辞ネットワークを構築し、新たな視点から学術界と科学の発展を科学します"},
+                {title: "人間活動におけるバースト性", subtitles: ["乳幼児と大人の違い"], img: "./sanolab/burst.png", detail:"this is detail"},
+                {title: "保育現場のICT化", subtitles: ["ドアの開閉ログを用いた忙しさの定量化", "動線データの分析"], img: "./demo.jpg", detail:"this is detail"}
             ]
         }
     }
