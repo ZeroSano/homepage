@@ -46,9 +46,7 @@ export default {
 
 <style scoped>
 #member {
-    background-color: rgba(158, 173, 162, 0.7);
-    /* background-blend-mode: luminosity; */
-    /* background-repeat: repeat-y; */
+    background-image: linear-gradient(rgba(105, 186, 233, 0.5), rgb(15, 15, 240,  0.5));
     height: 100%;
 }
 .home {

@@ -32,8 +32,10 @@ html {
   padding: 0 4px;
 }
 .default {
-   background-image: url("/nature.jpg");
-    background-size:cover;                 /* 画像のサイズを指定    */
+  /* background-image: url("/nature.jpg"); */
+  background-image: url("/sanolab/network4.png");
+  background-size: cover; 
+  background-repeat: repeat-y;
 }
 
 @media (max-width: 1200) {

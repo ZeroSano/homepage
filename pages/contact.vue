@@ -3,9 +3,10 @@
     <h1> contact </h1> 
 
     <div class="access">
-        <h2>access info</h2>
-        Email: sano@sk.tsukuba.ac.jp
-        Adress: 1 Chome-1ｰ1 Tennodai, Tsukuba, Ibaraki 305-8577
+        <h2>Direction</h2>
+        1 Chome-1ｰ1 Tennodai, Tsukuba, Ibaraki 305-8577
+        <h2>Email</h2>
+        <a href = "mailto: sano@sk.tsukuba.ac.jp">sano@sk.tsukuba.ac.jp</a>
     </div>
 
   </div>
@@ -32,6 +33,10 @@
 
 h1{
   padding-top: 100px;
+  font-size: 3rem;
 }
-
+a {
+  /* text-decoration: none; */
+  color: white;
+}
 </style>

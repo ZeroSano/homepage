@@ -46,7 +46,7 @@ export default {
               {img: "sanolab/spreadInfo.png", alt:"acknowledgement", description: "this is spreadInfo"},
               {img: "sanolab/acknowledgement.png", alt:"acknowledgement", description: "this is acknow"},
               {img: "sanolab/burst.png", alt:"acknowledgement", description: "this is burst"},
-              {img: "/demo.jpg", alt:"acknowledgement", description: "this is demo"}
+              {img: "HP_Photo/IMG_8666.jpg", alt:"demo", description: "this is demo"}
             ]
       }
   }
