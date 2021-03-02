@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
 #home {
-  background-image: url("HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119));
+  background-image: url("/HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119));
   object-fit: cover;
   background-blend-mode: hard-light;
   background-repeat: repeat-y;
