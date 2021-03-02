@@ -1,4 +1,11 @@
 export default {
+  // deploy setting
+  target: 'static',
+  router: {
+    base: '/homepage/'
+  },
+
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'sanolab-website',
@@ -11,7 +18,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/homepage/favicon.ico' }
     ]
   },
 
