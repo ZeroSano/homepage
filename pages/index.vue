@@ -2,14 +2,7 @@
   <div class="home wrapper" id="home">
     <h1> Sano Lab </h1> 
     <div class="contents">
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
-      佐野研究室ではこんなことやこんなことをしています。
+      佐野研究室ではインターネット上の人間の行動・心理から実社会での行動まで、幅広い社会全体を対象に数理モデルを活用してその構造を理解していきます。
     </div>
 
     <hooper class="hopper-contents" :autoPlay="true" :playSpeed="4000">
@@ -41,12 +34,11 @@ export default {
   data: () => {
         return {
             slides: [
-              {img: "sanolab/intro.png", alt:"acknowledgement", description: "this is intro"},
-              {img: "sanolab/emotion.png", alt:"acknowledgement", description: "this is emotion"},
-              {img: "sanolab/spreadInfo.png", alt:"acknowledgement", description: "this is spreadInfo"},
-              {img: "sanolab/acknowledgement.png", alt:"acknowledgement", description: "this is acknow"},
-              {img: "sanolab/burst.png", alt:"acknowledgement", description: "this is burst"},
-              {img: "HP_Photo/IMG_8666.jpg", alt:"demo", description: "this is demo"}
+              {img: "sanolab/research/intro.png", alt:"acknowledgement", description: "this is intro"},
+              {img: "sanolab/research/emotion.png", alt:"acknowledgement", description: "this is emotion"},
+              {img: "sanolab/research/spreadInfo.png", alt:"acknowledgement", description: "this is spreadInfo"},
+              {img: "sanolab/research/acknowledgement.png", alt:"acknowledgement", description: "this is acknow"},
+              {img: "sanolab/research/burst.png", alt:"acknowledgement", description: "this is burst"},
             ]
       }
   }
