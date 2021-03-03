@@ -27,26 +27,26 @@ export default {
         return {
             members: {
                 Director: [
-                    {name_en: 'Dr. Yukie Sano', img: "/sanolab/profile/ST__060r.JPG"}
+                    {name_en: 'Dr. Yukie Sano', img: "sanolab/profile/ST__060r.JPG"}
                     ],
                 D1: [
-                    {name_en: 'Makoto Takeuchi', img: "/sanolab/profile/D1_takeuchi.jpg"}
+                    {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
                     ],
                 M2: [
-                    {name_en: 'Ren Chohira', img: "./face.jpg"},
-                    {name_en: 'Sho Asano', img: "./face.jpg"}
+                    {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
+                    {name_en: 'Sho Asano', img: "sanolab/profile/face.jpg"}
                 ],
                 M1: [
-                    {name_en: 'Ryou Azuma', img: "/sanolab/profile/M1_Azuma.jpg"},
-                    {name_en: 'Naoki Igarashi ', img: "/sanolab/profile/M1_Igarashi.jpg"},
-                    {name_en: 'Li Zijing', img: "/sanolab/profile/face.jpg"}, 
-                    {name_en: '張さん', img: "/sanolab/profile/face.jpg"}
+                    {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_Azuma.jpg"},
+                    {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
+                    {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
+                    {name_en: '張さん', img: "sanolab/profile/face.jpg"}
                 ],
                 B4: [
-                    {name_en: 'Asaka', img: "/sanolab/profile/face.jpg"},
-                    {name_en: 'Keigo Kusumegi', img: "/sanolab/profile/B4_kusumegi.jpg"},
-                    {name_en: 'Chika Namiki', img: "/sanolab/profile/face.jpg"},
-                    {name_en: 'Chung Ming Hui', img: "/sanolab/profile/face.jpg"}
+                    {name_en: 'Asaka', img: "sanolab/profile/face.jpg"},
+                    {name_en: 'Keigo Kusumegi', img: "sanolab/profile/B4_kusumegi.jpg"},
+                    {name_en: 'Chika Namiki', img: "sanolab/profile/face.jpg"},
+                    {name_en: 'Chung Ming Hui', img: "sanolab/profile/face.jpg"}
                     ]
             }
         }
