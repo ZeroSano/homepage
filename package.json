@@ -6,7 +6,7 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
+    "generate": "BASE_URL=/homepage/  nuxt-ts generate",
     "deploy": "push-dir --dir=dist -t --branch=gh-pages --cleanup"
   },
   "dependencies": {

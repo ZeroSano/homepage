@@ -1,5 +1,5 @@
 <template>
-  <div class="home wrapper" id="home">
+  <div class="home wrapper" id="home" :style="{background: `url('${ baseURL }HP_Photo/IMG_0447.jpg'), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119))`}">
     <h1> Sano Lab </h1> 
     <div class="contents">
       佐野研究室ではインターネット上の人間の行動・心理から実社会での行動まで、幅広い社会全体を対象に数理モデルを活用してその構造を理解していきます。
@@ -33,6 +33,7 @@ export default {
   },
   data: () => {
         return {
+          baseURL: process.env.baseUrl,
             slides: [
               {img: "sanolab/research/intro.png", alt:"acknowledgement", description: "this is intro"},
               {img: "sanolab/research/emotion.png", alt:"acknowledgement", description: "this is emotion"},
@@ -47,7 +48,7 @@ export default {
 
 <style scoped>
 #home {
-  background-image: url("/HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119));
+  /* background-image: url("/HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119)); */
   object-fit: cover;
   background-blend-mode: hard-light;
   background-repeat: repeat-y;
