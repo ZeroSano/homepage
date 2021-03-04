@@ -18,3 +18,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+# tutorial for beginner
+download [load map](https://github.com/ZeroSano/homepage/blob/master/static/sanolab/webサイトtutorial.pptx) for learning this site:
