@@ -25,6 +25,7 @@ export default {
     name: "Member",
     data: () => {
         return {
+            baseURL: process.env.baseUrl,
             members: {
                 Director: [
                     {name_en: 'Dr. Yukie Sano', img: "sanolab/profile/ST__060r.JPG"}
@@ -37,16 +38,21 @@ export default {
                     {name_en: 'Sho Asano', img: "sanolab/profile/face.jpg"}
                 ],
                 M1: [
-                    {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_Azuma.jpg"},
+                    {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.jpg"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
                     {name_en: '張さん', img: "sanolab/profile/face.jpg"}
                 ],
                 B4: [
                     {name_en: 'Asaka', img: "sanolab/profile/face.jpg"},
-                    {name_en: 'Keigo Kusumegi', img: "sanolab/profile/B4_kusumegi.jpg"},
-                    {name_en: 'Chika Namiki', img: "sanolab/profile/face.jpg"},
-                    {name_en: 'Chung Ming Hui', img: "sanolab/profile/face.jpg"}
+                    {name_en: 'Keigo Kusumegi', img: "sanolab/profile/B4_kusumegi.JPG"},
+                    {name_en: 'Chika Namiki', img: "sanolab/profile/B4_namiki.JPG"}
+                    ],
+                B3: [
+                    {name_en: 'Otomo', img: "sanolab/profile/B3_otomo.jpg"}
+                    ],
+                "Research Student": [
+                    {name_en: 'Chung Ming Hui', img: "sanolab/profile/R1_Min.JPG"}
                     ]
             }
         }

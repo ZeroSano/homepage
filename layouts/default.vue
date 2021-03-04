@@ -1,5 +1,5 @@
 <template>
-  <div class="default">
+  <div class="default" :style="{background: `url('${ baseURL }sanolab/network4.png')`}" style="background-size: cover; ">
     <Navigation />
 
     <Nuxt />
@@ -9,7 +9,12 @@
 <script>
 import Navigation from '../components/navigation'
 export default {
-  Navigation
+  Navigation,
+  data: () => {
+    return {
+       baseURL: process.env.baseUrl
+    }
+  }
 }
 
 </script>
@@ -31,12 +36,11 @@ html {
   margin: 0 auto;
   padding: 0 4px;
 }
-.default {
-  /* background-image: url("/nature.jpg"); */
-  background-image: url("/sanolab/network4.png");
-  background-size: cover; 
-  background-repeat: repeat-y;
-}
+/* .default {
+  /* background-image: url("/sanolab/network4.png"); */
+  /* background-size: cover; 
+  background-repeat: repeat-y; */
+/* } */
 
 @media (max-width: 1200) {
   .wrapper {

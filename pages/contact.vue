@@ -13,9 +13,14 @@
 </template>
 
 <script lang="ts">
-// import Vue from 'vue'
-
-// export default Vue.extend({})
+export default {
+    name: "Member",
+    data: () => {
+        return {
+          baseURL: process.env.baseUrl
+        }
+    }
+}
 </script>
 
 <style scoped>

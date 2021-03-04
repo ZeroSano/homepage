@@ -48,6 +48,7 @@ export default {
 }
 .member-img {
     width: 100%;
+    object-fit: cover;
 }
 h1{
     text-align: center;
