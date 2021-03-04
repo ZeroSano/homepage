@@ -1,5 +1,5 @@
 <template>
-  <div class="contact wrapper" id="contact">
+  <div class="contact wrapper" id="contact" :style="{ background:  `url('${baseURL}HP_Photo/IMG_0447.jpg')`, 'object-fit': 'cover'}">
     <h1> contact </h1> 
 
     <div class="access">
@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 #contact {
-  background-image: url("/HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119));
+  /* background-image: url("/HP_Photo/IMG_0447.jpg"), linear-gradient(rgb(159, 163, 155), rgb(123, 124, 119)); */
   object-fit: cover;
   background-blend-mode: hard-light;
   background-repeat: repeat-y;
