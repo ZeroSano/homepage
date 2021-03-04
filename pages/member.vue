@@ -28,7 +28,7 @@ export default {
             baseURL: process.env.baseUrl,
             members: {
                 Director: [
-                    {name_en: 'Dr. Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
+                    {name_en: 'Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
                     ],
                 D1: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
