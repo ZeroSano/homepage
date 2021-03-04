@@ -38,9 +38,9 @@ export default {
 <style scoped>
 #project {
     color: white;
-    background-image: linear-gradient(rgb(245, 18, 18, 0.5), rgb(15, 15, 240,  0.5));
-    background-repeat: repeat-x;
-    height: 120vh;
+    background: linear-gradient(rgb(245, 18, 18, 0.5), rgb(15, 15, 240,  0.5));
+    background-repeat: repeat-y;
+    height: 100%;
 }
 .project {
   text-align: center;
@@ -48,7 +48,6 @@ export default {
 }
 .member-img {
     width: 100%;
-    object-fit: cover;
 }
 h1{
     text-align: center;
@@ -66,8 +65,9 @@ ul li {
     margin: 20px auto;
 }
 .project-box__item img {
-    width: 30%;
+    width: 500px;
     margin-left: 60px;
+    object-fit: cover;
 }
 .item-right {
     display: flex;
@@ -76,4 +76,17 @@ ul li {
 article {
     margin-right: 60px;
 }
+
+@media (max-width: 900px) {
+.item-right {
+    display: flex;
+    flex-direction: column;
+}
+.project-box__item img {
+    width: 450px;
+    margin: 20px auto;
+    object-fit: cover;
+}
+}
+
 </style>

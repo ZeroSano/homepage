@@ -28,7 +28,7 @@ export default {
             baseURL: process.env.baseUrl,
             members: {
                 Director: [
-                    {name_en: 'Dr. Yukie Sano', img: "sanolab/profile/ST__060r.JPG"}
+                    {name_en: 'Dr. Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
                     ],
                 D1: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 #member {
-    background-image: linear-gradient(rgba(105, 186, 233, 0.5), rgb(15, 15, 240,  0.5));
+    background: linear-gradient(rgb(245, 18, 18, 0.5), rgb(15, 15, 240,  0.5));
     height: 100%;
 }
 .home {
