@@ -48,6 +48,9 @@ h2 {
   margin: 10px auto;
   padding: 20px;
 }
+.map {
+  width: 80%;
+}
 a {
   /* text-decoration: none; */
   color: white;
