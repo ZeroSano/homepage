@@ -35,7 +35,7 @@ export default {
                     ],
                 M2: [
                     {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
-                    {name_en: 'Sho Asano', img: "sanolab/profile/face.jpg"}
+                    {name_en: 'Tsubasa Asano', img: "sanolab/profile/face.jpg"}
                 ],
                 M1: [
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
