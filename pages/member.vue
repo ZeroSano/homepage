@@ -27,7 +27,7 @@ export default {
         return {
             baseURL: process.env.baseUrl,
             members: {
-                Director: [
+                PI: [
                     {name_en: 'Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
                     ],
                 D1: [
@@ -41,10 +41,10 @@ export default {
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
-                    {name_en: '張さん', img: "sanolab/profile/face.jpg"}
+                    {name_en: 'Zhang Ruojing', img: "sanolab/profile/face.jpg"}
                 ],
                 B4: [
-                    {name_en: 'Asaka', img: "sanolab/profile/face.jpg"},
+                    {name_en: 'Mitsuya Asaka', img: "sanolab/profile/face.jpg"},
                     {name_en: 'Keigo Kusumegi', img: "sanolab/profile/B4_kusumegi.JPG"},
                     {name_en: 'Chika Namiki', img: "sanolab/profile/B4_namiki.JPG"}
                     ],
