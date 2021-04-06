@@ -28,7 +28,7 @@ export default {
             baseURL: process.env.baseUrl,
             members: {
                 PI: [
-                    {name_en: 'Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
+                    {name_en: 'Yukie Sano', img: "sanolab/profile/ST__011r.JPG"}
                     ],
                 D1: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
