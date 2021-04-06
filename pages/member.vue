@@ -45,7 +45,7 @@ export default {
                 ],
                 B4: [
                     {name_en: 'Mitsuya Asaka', img: "sanolab/profile/face.jpg"},
-                    {name_en: 'Keigo Kusumegi', img: "sanolab/profile/B4_kusumegi.JPG"},
+                    {name_en: 'KEIGO Kusumegi', img: "sanolab/profile/B4_kusumegi.JPG"},
                     {name_en: 'Chika Namiki', img: "sanolab/profile/B4_namiki.JPG"}
                     ],
                 B3: [
