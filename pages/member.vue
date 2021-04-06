@@ -41,7 +41,7 @@ export default {
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
-                    {name_en: 'Zhang Ruojing', img: "sanolab/profile/face.jpg"}
+                    {name_en: '張　若菁', img: "sanolab/profile/face.jpg"}
                 ],
                 B4: [
                     {name_en: 'Mitsuya Asaka', img: "sanolab/profile/face.jpg"},
