@@ -33,11 +33,11 @@ export default {
                 D1: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
                     ],
-                M2: [
+                M3: [
                     {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
                     {name_en: 'Tsubasa Asano', img: "sanolab/profile/face.jpg"}
                 ],
-                M1: [
+                M2: [
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
