@@ -30,7 +30,7 @@ export default {
                 PI: [
                     {name_en: 'Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
                     ],
-                D1: [
+                D2: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
                     ],
                 M2: [
