@@ -2,7 +2,7 @@
   <div class="home wrapper" id="home" :style="{background: `url('${ baseURL }HP_Photo/IMG_7151.jpg')`, 'background-color': 'rgb(100, 236, 130, .2)', 'background-blend-mode': '  background-blend-mode:luminosity', 'background-repeat': 'repeat-y'}">
     <h1> Sano Lab </h1> 
     <div class="contents">
-      佐野研究室ではインターネット上の人間の行動・心理から実社会での行動まで、幅広い社会全体を対象に <br> 数理モデルを活用してその構造を理解していきます。
+      localhost 佐野研究室ではインターネット上の人間の行動・心理から実社会での行動まで、幅広い社会全体を対象に <br> 数理モデルを活用してその構造を理解していきます。
     </div>
 
     <hooper class="hopper-contents" :autoPlay="true" :playSpeed="6000">
