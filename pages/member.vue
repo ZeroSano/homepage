@@ -30,14 +30,14 @@ export default {
                 PI: [
                     {name_en: 'Yukie Sano', img: "sanolab/profile/ST__028r.JPG"}
                     ],
-                D1: [
+                D2: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
                     ],
-                M2: [
+                M3: [
                     {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
                     {name_en: 'Tsubasa Asano', img: "sanolab/profile/face.jpg"}
                 ],
-                M1: [
+                M2: [
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
