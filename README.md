@@ -65,11 +65,7 @@ git pull origin sample_branch
 
 以上がブランチを切って開発する流れになります。必ずブランチを切る際にはmasterブランチで```git pull```をして最新の状態にしてから作業を行うようにしてください。
 
-また、ブランチがいらなくなったら
-
-```git branch -D sample_branch```
-
-でsample_branchのブランチを消すとことができます。
+また、ブランチがいらなくなったら```git branch -D sample_branch```でsample_branchのブランチを消すとことができます。
 
 
 ### デプロイ
