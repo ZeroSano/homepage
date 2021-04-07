@@ -33,26 +33,24 @@ export default {
                 D2: [
                     {name_en: 'Makoto Takeuchi', img: "sanolab/profile/D1_takeuchi.jpg"}
                     ],
-                M3: [
-                    {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
-                    {name_en: 'Tsubasa Asano', img: "sanolab/profile/face.jpg"}
-                ],
+                // M3: [
+                //     {name_en: 'Ren Chohira', img: "sanolab/profile/face.jpg"},
+                //     {name_en: 'Tsubasa Asano', img: "sanolab/profile/face.jpg"}
+                // ],
                 M2: [
                     {name_en: 'Ryou Azuma', img: "sanolab/profile/M1_azuma.JPG"},
                     {name_en: 'Naoki Igarashi ', img: "sanolab/profile/M1_Igarashi.jpg"},
                     {name_en: 'Li Zijing', img: "sanolab/profile/face.jpg"}, 
                     {name_en: 'Zhang Ruojing', img: "sanolab/profile/face.jpg"}
                 ],
-                B4: [
-                    {name_en: 'Mitsuya Asaka', img: "sanolab/profile/face.jpg"},
+                M1: [
+                    // {name_en: 'Mitsuya Asaka', img: "sanolab/profile/face.jpg"},
+                    // {name_en: 'Chika Namiki', img: "sanolab/profile/B4_namiki.JPG"},
                     {name_en: 'KEIGO Kusumegi', img: "sanolab/profile/B4_kusumegi.JPG"},
-                    {name_en: 'Chika Namiki', img: "sanolab/profile/B4_namiki.JPG"}
-                    ],
-                B3: [
-                    {name_en: 'Otomo', img: "sanolab/profile/B3_otomo.jpg"}
-                    ],
-                "Research Student": [
                     {name_en: 'Chung Ming Hui', img: "sanolab/profile/R1_Min.JPG"}
+                    ],
+                B4: [
+                    {name_en: 'Otomo', img: "sanolab/profile/B3_otomo.jpg"}
                     ]
             }
         }
